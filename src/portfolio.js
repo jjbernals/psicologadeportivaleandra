@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Dra. Leandra Prada",
+  username: "Dra. Leandra Prada Cruz",
   title: "Recupera tu mejor nivel entrenando tu mentalidad",
   subTitle: emoji(
 "Soy Leandra Prada, Psicóloga Deportiva ⚽️✨\n" +
