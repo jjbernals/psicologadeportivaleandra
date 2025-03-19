@@ -41,7 +41,7 @@ function Header() {
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           {viewSkills && (
             <li>
-              <a href="#skills">SOBRE MI</a>
+              <a href="#about">SOBRE MI</a>
             </li>
           )}
           {viewExperience && (

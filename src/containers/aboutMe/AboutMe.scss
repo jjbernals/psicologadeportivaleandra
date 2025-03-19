@@ -1,0 +1,51 @@
+.about-me-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8em;
+}
+
+.about-me-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  gap: 8rem; /* Más separación entre el texto y la imagen */
+}
+
+.about-me-text {
+  flex: 1;
+  max-width: 50%; /* Ajusta el ancho del texto */
+  text-align: left;
+}
+
+.about-me-heading {
+  font-size: 3rem; /* Hacer el título más grande */
+  margin-bottom: 1.5rem;
+}
+
+.about-me-description {
+  font-size: 1.4rem;
+  line-height: 1.8;
+}
+
+.about-me-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; /* Mueve la imagen más a la derecha */
+}
+
+.about-me-image img {
+  width: 100%;
+  max-width: 400px; /* Agrandar más la imagen */
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+  border: 6px solid #8a2be2; /* Borde elegante en tono morado */
+}
+
+h1, p{
+  color: white;
+}

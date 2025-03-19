@@ -28,3 +28,10 @@
 .subTitle {
   color: $subTitle;
 }
+/* Aplica el degradado a toda la página */
+body {
+  background: linear-gradient(135deg, #6a00ff, #a200ff);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}

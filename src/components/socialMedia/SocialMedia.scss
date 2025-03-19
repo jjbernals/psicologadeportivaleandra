@@ -8,6 +8,32 @@
   margin-bottom: 10px;
 }
 
+.social-media-div {
+  display: flex;
+  gap: 10px; // Espacio entre íconos
+}
+
+.icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; // Tamaño del botón redondo
+  height: 40px;
+  border-radius: 50%; // Hace que el fondo sea redondo
+  background-color: #6a00ff; // Color de fondo, puedes cambiarlo
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #a200ff; // Color al pasar el mouse
+  }
+
+  svg, i {
+    font-size: 18px; // Tamaño del ícono
+    color: white; // Color del ícono
+  }
+}
+
+
 .icon-button i {
   color: $textColorDark;
   border-radius: 2.6rem;

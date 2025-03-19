@@ -1,20 +1,23 @@
 import React from "react";
 import "./Education.scss";
-import EducationCard from "../../components/educationCard/EducationCard";
-import {educationInfo} from "../../portfolio";
+import { educationInfo } from "../../portfolio";
 
 export default function Education() {
-  if (educationInfo.display) {
-    return (
-      <div className="education-section" id="education">
-        <h1 className="education-heading">Formación académica</h1>
-        <div className="education-card-container">
-          {educationInfo.schools.map((school, index) => (
-            <EducationCard key={index} school={school} />
-          ))}
-        </div>
-      </div>
-    );
-  }
-  return null;
+    if (educationInfo.display) {
+        return (
+            <div className="education-section" id="education">
+                <h1 className="education-heading">🎓 Formación Académica</h1>
+                <div className="education-card-container">
+                    {educationInfo.schools.map((school, index) => (
+                        <div key={index} className="education-card">
+                            <img src={school.logo} alt={school.name} />
+                            <h3>{school.schoolName}</h3>
+                            <p>{school.subHeader}</p>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        );
+    }
+    return null;
 }

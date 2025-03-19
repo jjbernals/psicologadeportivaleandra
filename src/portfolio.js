@@ -23,7 +23,7 @@ const greeting = {
   username: "Dra. Leandra Prada Cruz",
   title: "Recupera tu mejor nivel entrenando tu mentalidad",
   subTitle: emoji(
-"Soy Leandra Prada, Psicóloga Deportiva ⚽️✨\n" +
+"Soy Leandra Prada, Psicóloga Clínica - Deportiva ⚽️✨\n" +
     "Te ayudo a fortalecer tu mentalidad, manejar la presión y alcanzar tu máximo rendimiento en la competencia. 🚀🔥"  ),
   displayGreeting: true // Set false to hide this section, defaults to true
 };
@@ -31,9 +31,11 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  linkedin: "https://www.linkedin.com/in/leandra-lorena-prada-cruz-95224a251/",
   gmail: "saadpasta70@gmail.com",
   facebook: "https://www.facebook.com/saad.pasta7",
+  instagram : "",
+  tiktok: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -116,25 +118,27 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Universidad El Bosque",
+      logo: require("./assets/images/elBosqueLogo.png"),
+      subHeader: "Psicología",
+      duration: "2010 - 2015",
+      desc: "Formación en psicología con un enfoque en la salud mental y el bienestar emocional.",
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
-  ]
+      schoolName: "Universidad Católica de Colombia",
+      logo: require("./assets/images/catolicaLogo.png"),
+      subHeader: "Psicología Clínica",
+      duration: "2016 - 2018",
+      desc: "Especialización en psicología clínica, profundizando en técnicas terapéuticas avanzadas.",
+    },
+    {
+      schoolName: "Universidad Antonio Nariño",
+      logo: require("./assets/images/antonio.jpg"),
+      subHeader: "Psicología del Deporte y el Ejercicio",
+      duration: "2019 - 2021",
+      desc: "Enfoque en el rendimiento mental de atletas de alto nivel y estrategias psicológicas para la mejora deportiva.",
+    },
+  ],
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -164,29 +168,52 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Deportista",
-      company: "Facebook",
+      role: "Sesiones individuales de terapia psicológica",
+      company: "Atención individual",
       companylogo: require("./assets/images/deportista.jpg"),
       date: "",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Sesiones personalizadas de terapia psicológica diseñadas para mejorar la concentración, la autoconfianza y el manejo del estrés en el deporte.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Evaluación y planificación psicológica adaptada",
+        "Estrategias de motivación y enfoque mental",
+        "Gestión de la ansiedad y la presión competitiva"
       ]
     },
     {
-      role: "Club/Federacion",
-      company: "Quora",
+      role: "Talleres de grupo sobre manejo de la presión",
+      company: "Trabajo grupal y equipos",
       companylogo: require("./assets/images/deportista.jpg"),
       date: "",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Entrenamiento mental y talleres diseñados para fortalecer la cohesión del equipo y mejorar el rendimiento colectivo.",
+      descBullets: [
+        "Talleres grupales sobre manejo de la presión",
+        "Desarrollo de comunicación efectiva en el equipo",
+        "Estrategias para mejorar la toma de decisiones bajo presión"
+      ]
     },
     {
-      role: "Deporte base",
-      company: "Airbnb",
+      role: "Entrenamiento mental para equipos",
+      company: "Formación y asesoría",
       companylogo: require("./assets/images/deportista.jpg"),
       date: "",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Asesoría para la creación de estrategias mentales personalizadas que ayuden a potenciar el desarrollo psicológico del deportista.",
+      descBullets: [
+        "Entrenamiento mental adaptado a cada nivel deportivo",
+        "Prevención y manejo del burnout en el deporte",
+        "Desarrollo de una mentalidad ganadora y resiliente"
+      ]
+    },
+    {
+      role: "Asesoría para el desarrollo de estrategias mentales personalizadas",
+      company: "Formación y Asesoría Deportiva",
+      companylogo: require("./assets/images/deportista.jpg"),
+      date: "",
+      desc: "Brindamos asesoramiento especializado para desarrollar estrategias mentales personalizadas que optimicen el rendimiento psicológico de los deportistas.",
+      descBullets: [
+        "Entrenamiento mental adaptado a cada nivel deportivo",
+        "Prevención y manejo del agotamiento psicológico en el deporte",
+        "Fomento de una mentalidad ganadora y resiliente"
+      ]
     }
   ]
 };

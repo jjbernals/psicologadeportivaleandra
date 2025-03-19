@@ -18,7 +18,8 @@
 }
 
 .header {
-  background-color: $lightBackground1;
+  background: linear-gradient(135deg, #6a00ff, #a200ff);
+  background-size: 400% 400%; /* Ajusta el tamaño para que coincida con el body */
   max-width: 100%;
   padding: 15px 20px;
   margin: 0px auto;
@@ -39,14 +40,16 @@
 .header li a {
   display: block;
   padding: 15px 20px;
-  color: $textColor;
+  color: white;
   text-decoration: none;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: $headerHoverBG;
+  color: #4a007f; /* Texto cambia a cian neón */
+  transition: all 0.3s ease-in-out;
 }
+
 
 .header .logo {
   display: block;
@@ -160,6 +163,9 @@
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
+}
+h3 {
+  color: white;
 }
 
 /* 48em = 768px */

@@ -1,61 +1,37 @@
 import React from "react";
 import "./SocialMedia.scss";
-import {socialMediaLinks} from "../../portfolio";
+import { FaLinkedinIn, FaFacebookF, FaInstagram } from "react-icons/fa";
+import { SiTiktok } from "react-icons/si";
 
-export default function socialMedia() {
-  if (!socialMediaLinks.display) {
-    return null;
-  }
-  return (
-    <div className="social-media-div">
+export default function SocialMedia() {
+    return (
+        <div className="social-media-div">
+            <a
+                href="https://www.linkedin.com/in/leandra-lorena-prada-cruz-95224a251/"
+                className="icon-button linkedin"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <FaLinkedinIn />
+            </a>
 
-      {socialMediaLinks.linkedin ? (
-        <a
-          href={socialMediaLinks.linkedin}
-          className="icon-button linkedin"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-linkedin-in"></i>
-          <span></span>
-        </a>
-      ) : null}
+            <a
+                href="https://www.tiktok.com/@psicologadeportivallpc?is_from_webapp=1&sender_device=pc"
+                className="icon-button tiktok"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <SiTiktok />
+            </a>
 
-      {socialMediaLinks.gmail ? (
-        <a
-          href={`mailto:${socialMediaLinks.gmail}`}
-          className="icon-button google"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fas fa-envelope"></i>
-          <span></span>
-        </a>
-      ) : null}
-
-      {socialMediaLinks.facebook ? (
-        <a
-          href={socialMediaLinks.facebook}
-          className="icon-button facebook"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-facebook-f"></i>
-          <span></span>
-        </a>
-      ) : null}
-
-      {socialMediaLinks.instagram ? (
-        <a
-          href={socialMediaLinks.instagram}
-          className="icon-button instagram"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-instagram"></i>
-          <span></span>
-        </a>
-      ) : null}
-    </div>
-  );
+            <a
+                href="https://www.instagram.com"
+                className="icon-button instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <FaInstagram />
+            </a>
+        </div>
+    );
 }
