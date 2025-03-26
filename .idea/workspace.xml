@@ -5,30 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9cf22fe-5a0e-4cba-a8ee-e3ec29a03750" name="Changes" comment="Cruz">
-      <change afterPath="$PROJECT_DIR$/public/fotoDra.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/hero.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/antonio.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/catolicaLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/elBosqueLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/aboutMe/AboutMe.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/aboutMe/aboutMe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bono.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experienceCard/ExperienceCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experienceCard/ExperienceCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experienceCard/ExperienceCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experienceCard/ExperienceCard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/githubProfileCard/GithubProfileCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/githubProfileCard/GithubProfileCard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/socialMedia/SocialMedia.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/socialMedia/SocialMedia.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/socialMedia/SocialMedia.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/socialMedia/SocialMedia.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/education/Education.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/education/Education.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/education/Education.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/education/Education.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/greeting/Greeting.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/greeting/Greeting.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/greeting/Greeting.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/greeting/Greeting.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/StartupProjects/StartupProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/StartupProjects/StartupProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/StartupProjects/StartupProjects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/StartupProjects/StartupProjects.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/aboutMe/AboutMe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/aboutMe/AboutMe.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/achievement/Achievement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/achievement/Achievement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/achievement/Achievement.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/achievement/Achievement.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/talks/Talks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/talks/Talks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/talks/Talks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/talks/Talks.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/twitter-embed/twitter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/twitter-embed/twitter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,25 +57,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/laragon/www/draleandrapadro/src/assets/images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\laragon\\www\\draleandrapadro\\node_modules\\prettier",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/laragon/www/draleandrapadro/public&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\laragon\\www\\draleandrapadro\\node_modules\\prettier&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\laragon\www\draleandrapadro\src\assets\images" />
       <recent name="C:\laragon\www\draleandrapadro\public" />
+      <recent name="C:\laragon\www\draleandrapadro\src\assets\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\laragon\www\draleandrapadro\public" />
@@ -106,7 +98,10 @@
       <option name="presentableId" value="Default" />
       <updated>1741986147566</updated>
       <workItem from="1741986149324" duration="208000" />
-      <workItem from="1742402860779" duration="11077000" />
+      <workItem from="1742402860779" duration="11752000" />
+      <workItem from="1742920147203" duration="595000" />
+      <workItem from="1742936831124" duration="5233000" />
+      <workItem from="1743006251238" duration="999000" />
     </task>
     <task id="LOCAL-00001" summary="Cruz">
       <option name="closed" value="true" />
@@ -116,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741986352998</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Cruz">
+      <option name="closed" value="true" />
+      <created>1742415816127</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742415816127</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

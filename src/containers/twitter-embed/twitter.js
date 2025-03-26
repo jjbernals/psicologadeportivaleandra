@@ -10,11 +10,7 @@ const cantDisplayError =
   "<div className='centerContent'><h2>Can't load? Check privacy protection settings</h2></div>";
 
 function timeOut() {
-  setTimeout(function () {
-    if (!document.getElementById("twitter").innerHTML.includes("iframe")) {
-      document.getElementById("twitter").innerHTML = cantDisplayError;
-    }
-  }, 10000);
+
 }
 var widthScreen = window.screen.width;
 
@@ -30,7 +26,7 @@ export default function Twitter() {
   if (twitterDetails.userName) {
     return (
       <Suspense fallback={renderLoader()}>
-        <div className="tw-main-div" id="twitter">
+        <div className="tw-main-div">
           <div className="centerContent">
             <TwitterTimelineEmbed
               sourceType="profile"

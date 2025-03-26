@@ -1,29 +1,92 @@
 @import "../../_globalColor";
 
-.talk-header-title {
-  font-size: 56px;
-  font-weight: 400;
-  line-height: 0px;
+.teleconsultas-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
 }
 
-.talk-cards-div {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-  gap: 1rem 1rem;
+.teleconsultas-header {
+  text-align: center;
+  background: linear-gradient(135deg, #6a00ff, #a200ff);
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
 }
 
-.subTitle {
-  color: $subTitle;
+.teleconsultas-section {
+  margin: 40px 0;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 768px) {
-  .talk-header-title {
-    font-size: 30px;
-    text-align: center;
+h2 {
+  color: #6a00ff;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+
+  li {
+    background: rgba(106, 0, 255, 0.1);
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
   }
-  .talk-header-subtitle {
+}
+
+/* Estilos para la sección de pasos */
+.steps {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.step {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  background: rgba(106, 0, 255, 0.1);
+  border-radius: 8px;
+  min-width: 200px;
+
+  span {
+    font-size: 30px;
+  }
+
+  h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #6a00ff;
+  }
+}
+
+/* FAQ Section */
+.faq {
+  background: rgba(106, 0, 255, 0.1);
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+
+  h3 {
     font-size: 16px;
-    line-height: normal;
-    text-align: center;
+    color: #6a00ff;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .steps {
+    flex-direction: column;
+  }
+
+  .teleconsultas-header {
+    padding: 30px;
   }
 }

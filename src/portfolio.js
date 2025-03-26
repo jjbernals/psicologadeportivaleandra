@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Dra. Leandra Prada Cruz",
+  username: "Leandra Lorena Prada Cruz",
   title: "Recupera tu mejor nivel entrenando tu mentalidad",
   subTitle: emoji(
 "Soy Leandra Prada, Psicóloga Clínica - Deportiva ⚽️✨\n" +
@@ -120,7 +120,7 @@ const educationInfo = {
     {
       schoolName: "Universidad El Bosque",
       logo: require("./assets/images/elBosqueLogo.png"),
-      subHeader: "Psicología",
+      subHeader: "Psicología del Deporte y el Ejercicio",
       duration: "2010 - 2015",
       desc: "Formación en psicología con un enfoque en la salud mental y el bienestar emocional.",
     },
@@ -134,7 +134,7 @@ const educationInfo = {
     {
       schoolName: "Universidad Antonio Nariño",
       logo: require("./assets/images/antonio.jpg"),
-      subHeader: "Psicología del Deporte y el Ejercicio",
+      subHeader: "Psicología",
       duration: "2019 - 2021",
       desc: "Enfoque en el rendimiento mental de atletas de alto nivel y estrategias psicológicas para la mejora deportiva.",
     },
@@ -325,23 +325,23 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+      "Descubre cómo la mente influye en el rendimiento deportivo y aprende estrategias para potenciar tu desempeño.",
+  displayMediumBlogs: false, // Set true si quieres integrar blogs desde Medium
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://www.psicologosdeldeporteonline.com/blog/",
+      title: "La importancia de la psicología en el deporte",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+          "Explora cómo la preparación mental puede marcar la diferencia en el rendimiento deportivo y cómo entrenar la mente para el éxito."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://entrenandolamentepy.wordpress.com/",
+      title: "Entrenando la mente para la competencia",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+          "Descubre estrategias psicológicas para mejorar la concentración, la motivación y el control emocional en el deporte."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true // Set false para ocultar esta sección
 };
 
 // Talks Sections
@@ -367,7 +367,7 @@ const talkSection = {
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "Explorando el impacto de la psicología en el deporte y el bienestar mental.",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
@@ -386,12 +386,13 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contáctame ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+      "¿Quieres agendar una consulta o conocer más sobre mis servicios? ¡Escríbeme!",
+  number: "+57 3205794183", // Reemplaza con el número real
+  email_address: "correo@ejemplo.com" // Reemplaza con el correo real
 };
+
 
 // Twitter Section
 
