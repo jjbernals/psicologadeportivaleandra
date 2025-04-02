@@ -174,9 +174,9 @@ const workExperiences = {
       date: "",
       desc: "Sesiones personalizadas de terapia psicológica diseñadas para mejorar la concentración, la autoconfianza y el manejo del estrés en el deporte.",
       descBullets: [
-        "Evaluación y planificación psicológica adaptada",
         "Estrategias de motivación y enfoque mental",
-        "Gestión de la ansiedad y la presión competitiva"
+        "Gestión de la ansiedad y la presión competitiva",
+        "Caracter competitivo",
       ]
     },
     {

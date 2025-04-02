@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9cf22fe-5a0e-4cba-a8ee-e3ec29a03750" name="Changes" comment="finish hem">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/Psiconline.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/group.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/groupF.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/saludmental.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experienceCard/ExperienceCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experienceCard/ExperienceCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experienceCard/ExperienceCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experienceCard/ExperienceCard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/aboutMe/AboutMe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/aboutMe/AboutMe.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/education/Education.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/education/Education.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/education/Education.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/education/Education.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/greeting/Greeting.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/greeting/Greeting.scss" afterDir="false" />
+    <list default="true" id="d9cf22fe-5a0e-4cba-a8ee-e3ec29a03750" name="Changes" comment="Cambios finales">
       <change beforePath="$PROJECT_DIR$/src/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +87,7 @@
       <workItem from="1742920147203" duration="595000" />
       <workItem from="1742936831124" duration="5233000" />
       <workItem from="1743006251238" duration="1907000" />
-      <workItem from="1743622531214" duration="3285000" />
+      <workItem from="1743622531214" duration="3381000" />
     </task>
     <task id="LOCAL-00001" summary="Cruz">
       <option name="closed" value="true" />
@@ -127,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743007386822</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cambios finales">
+      <option name="closed" value="true" />
+      <created>1743625861991</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743625861991</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cruz" />
     <MESSAGE value="finish hem" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish hem" />
+    <MESSAGE value="Cambios finales" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios finales" />
   </component>
 </project>
