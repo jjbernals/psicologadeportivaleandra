@@ -28,10 +28,23 @@
 .subTitle {
   color: $subTitle;
 }
-/* Aplica el degradado a toda la página */
 body {
-  background: linear-gradient(135deg, #6a00ff, #a200ff);
+  background-color: #f8f5ff; /* Fondo claro con tono lavanda suave */
+  background-image:
+          linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+          radial-gradient(circle at top left, rgba(106, 0, 255, 0.1), rgba(162, 0, 255, 0.05));
+  background-size: 40px 40px, 40px 40px, 100% 100%;
   min-height: 100vh;
   margin: 0;
   padding: 0;
+  padding-top: 120px; /* Ajuste por defecto para desktop */
+
+  @media (max-width: 768px) {
+    padding-top: 100px; /* Aumenta el espacio en pantallas más pequeñas si el header es más alto */
+  }
+
+  @media (max-width: 480px) {
+    padding-top: 0px; /* Mayor espacio en móviles si el menú es más grande */
+  }
 }

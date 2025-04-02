@@ -170,7 +170,7 @@ const workExperiences = {
     {
       role: "Sesiones individuales de terapia psicológica",
       company: "Atención individual",
-      companylogo: require("./assets/images/deportista.jpg"),
+      companylogo: require("./assets/images/Psiconline.webp"),
       date: "",
       desc: "Sesiones personalizadas de terapia psicológica diseñadas para mejorar la concentración, la autoconfianza y el manejo del estrés en el deporte.",
       descBullets: [
@@ -182,7 +182,7 @@ const workExperiences = {
     {
       role: "Talleres de grupo sobre manejo de la presión",
       company: "Trabajo grupal y equipos",
-      companylogo: require("./assets/images/deportista.jpg"),
+      companylogo: require("./assets/images/group.jpg"),
       date: "",
       desc: "Entrenamiento mental y talleres diseñados para fortalecer la cohesión del equipo y mejorar el rendimiento colectivo.",
       descBullets: [
@@ -194,7 +194,7 @@ const workExperiences = {
     {
       role: "Entrenamiento mental para equipos",
       company: "Formación y asesoría",
-      companylogo: require("./assets/images/deportista.jpg"),
+      companylogo: require("./assets/images/groupF.webp"),
       date: "",
       desc: "Asesoría para la creación de estrategias mentales personalizadas que ayuden a potenciar el desarrollo psicológico del deportista.",
       descBullets: [
@@ -206,7 +206,7 @@ const workExperiences = {
     {
       role: "Asesoría para el desarrollo de estrategias mentales personalizadas",
       company: "Formación y Asesoría Deportiva",
-      companylogo: require("./assets/images/deportista.jpg"),
+      companylogo: require("./assets/images/saludmental.jpg"),
       date: "",
       desc: "Brindamos asesoramiento especializado para desarrollar estrategias mentales personalizadas que optimicen el rendimiento psicológico de los deportistas.",
       descBullets: [

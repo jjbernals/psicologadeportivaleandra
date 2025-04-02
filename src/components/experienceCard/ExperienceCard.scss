@@ -2,7 +2,6 @@
 
 .experience-card {
   position: relative;
-  background: linear-gradient(135deg, #8a2be2, #6a0dad); /* Degradado en tonos morados */
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
   border-radius: 12px;
   border: none;
@@ -16,8 +15,23 @@
   box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.3);
 }
 
+.experience-card:nth-child(1) .experience-banner {
+  background: linear-gradient(135deg, #b57edc, #9a59b5); /* Morado */
+}
+
+.experience-card:nth-child(2) .experience-banner {
+  background: linear-gradient(135deg, #7eb6ed, #599ab5); /* Azul */
+}
+
+.experience-card:nth-child(3) .experience-banner {
+  background: linear-gradient(135deg, #fde68a, #facc15); /* Amarillo */
+}
+
+.experience-card:nth-child(4) .experience-banner {
+  background: linear-gradient(135deg, #f9a8d4, #ec4899); /* Rosa */
+}
+
 .experience-banner {
-  background: linear-gradient(135deg, #b57edc, #9a59b5); /* Morado claro a medio */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,6 +41,7 @@
   align-items: center;
   justify-content: center;
 }
+
 
 
 .experience-roundedimg {
@@ -47,7 +62,7 @@
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
-  color: white;
+  color: black;
 }
 
 .experience-text-date {

@@ -28,8 +28,6 @@ function Header() {
         <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
           ☰
         </div>
-
-        <Headroom>
           <header className={`header ${isDark ? "dark-menu" : ""} ${menuOpen ? "open" : ""}`}>
             <a href="/" className="logo">
               <span className="logo-name">{greeting.username}</span> <br />
@@ -42,10 +40,9 @@ function Header() {
               {viewBlog && <li><a href="/#blogs" onClick={() => setMenuOpen(false)}>Blogs</a></li>}
               <li><a href="/#contact" onClick={() => setMenuOpen(false)}>Contacto</a></li>
               {viewAchievement && <li><a href="/faqs" onClick={() => setMenuOpen(false)}>FAQs</a></li>}
-              <li><a href="/telecitas" onClick={() => setMenuOpen(false)}>Tele Citas</a></li>
+              <li><a href="/telecitas" onClick={() => setMenuOpen(false)}>Sesión en Línea</a></li>
             </ul>
           </header>
-        </Headroom>
       </>
   );
 }
