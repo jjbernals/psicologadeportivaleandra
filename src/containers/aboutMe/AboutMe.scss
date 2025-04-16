@@ -49,3 +49,31 @@
 h1, p{
   color: black;
 }
+@media (max-width: 768px) {
+  .about-me-container {
+    flex-direction: column;
+    gap: 4rem; // Menor separación en pantallas pequeñas
+    align-items: center; // Centrar contenido al apilar
+  }
+
+  .about-me-text {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .about-me-heading {
+    font-size: 2.5rem;
+  }
+
+  .about-me-description {
+    font-size: 1.2rem;
+  }
+
+  .about-me-image {
+    justify-content: center;
+  }
+
+  .about-me-image img {
+    max-width: 300px; // Ajusta tamaño para móviles
+  }
+}

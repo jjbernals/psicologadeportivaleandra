@@ -387,10 +387,13 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contáctame ☎️"),
-  subtitle:
-      "¿Quieres agendar una consulta o conocer más sobre mis servicios? ¡Escríbeme!",
-  number: "+57 3205794183", // Reemplaza con el número real
-  email_address: "correo@ejemplo.com" // Reemplaza con el correo real
+  subtitle: "¿Quieres agendar una consulta o conocer más sobre mis servicios? ¡Escríbeme!",
+  number: "320 5794183",
+  email_address: "", // Lo puedes dejar vacío o eliminar si ya no se usa
+  address: [
+    "Calle 63 # 14-40 local 11, Bosques de Santa Mónica, Pereira, Risaralda",
+    "Carrera 7 #57-45, Piedrapintada, Ibagué, Tolima"
+  ]
 };
 
 

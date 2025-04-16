@@ -20,7 +20,7 @@ export default function AboutMe() {
                 </Fade>
                 <Fade right duration={1000}>
                     <div className="about-me-image">
-                        <img src="/fotoDra.png" alt="Psicóloga" />
+                        <img src="/dra.jpg" alt="Psicóloga" />
                     </div>
                 </Fade>
             </div>
