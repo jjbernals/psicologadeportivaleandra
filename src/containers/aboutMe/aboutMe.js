@@ -13,8 +13,7 @@ export default function AboutMe() {
                     <div className="about-me-text">
                         <h1 className="about-me-heading">Sobre Mí</h1>
                         <p className="about-me-description">
-                            Psicóloga especializada en el ámbito deportivo. Mi misión es ayudar a jugadores de alto rendimiento y equipos
-                            a alcanzar su máximo potencial mental y emocional, de manera que puedan optimizar su rendimiento y disfrutar de su pasión por el deporte.
+                            Psicóloga especialista en el área de la psicología deportiva y del ejercicio; mi misión es ayudar a deportistas de alto rendimiento a alcanzar su máximo potencial...
                         </p>
                     </div>
                 </Fade>

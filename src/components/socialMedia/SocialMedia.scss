@@ -20,11 +20,11 @@
   width: 40px; // Tamaño del botón redondo
   height: 40px;
   border-radius: 50%; // Hace que el fondo sea redondo
-  background-color: #6a00ff; // Color de fondo, puedes cambiarlo
+  background-color: #007bff; // Azul suave
   transition: all 0.3s ease-in-out;
 
   &:hover {
-    background-color: #a200ff; // Color al pasar el mouse
+    background-color: #00b4ff; // Azul más claro al pasar el mouse
   }
 
   svg, i {

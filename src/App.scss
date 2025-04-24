@@ -29,22 +29,22 @@
   color: $subTitle;
 }
 body {
-  background-color: #f8f5ff; /* Fondo claro con tono lavanda suave */
+  background-color: #f0f8ff; // azul muy claro (AliceBlue)
   background-image:
-          linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px),
-          linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
-          radial-gradient(circle at top left, rgba(106, 0, 255, 0.1), rgba(162, 0, 255, 0.05));
+          linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+          radial-gradient(circle at top left, rgba(0, 123, 255, 0.1), rgba(0, 180, 255, 0.05));
   background-size: 40px 40px, 40px 40px, 100% 100%;
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  padding-top: 120px; /* Ajuste por defecto para desktop */
+  padding-top: 120px;
 
   @media (max-width: 768px) {
-    padding-top: 100px; /* Aumenta el espacio en pantallas más pequeñas si el header es más alto */
+    padding-top: 100px;
   }
 
   @media (max-width: 480px) {
-    padding-top: 0px; /* Mayor espacio en móviles si el menú es más grande */
+    padding-top: 0px;
   }
 }

@@ -8,7 +8,7 @@ const bonos = [
     id: 1,
     titulo: "Bono Especial",
     descripcion: "Paga 10 sesiones y recibe 2 adicionales totalmente gratis.",
-    image: "/bono.jpg", // Agrega una imagen representativa
+    image: require("../../assets/images/bono.jpg"), // Agrega una imagen representativa
     link: "https://wa.me/573205794183?text=Hola,%20quiero%20información%20acerca%20del%20bono%20de%20psicología%20deportiva.",
   },
 ];

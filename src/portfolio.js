@@ -170,7 +170,7 @@ const workExperiences = {
     {
       role: "Sesiones individuales de terapia psicológica",
       company: "Atención individual",
-      companylogo: require("./assets/images/Psiconline.webp"),
+      companylogo: require("./assets/images/psico.jpg"),
       date: "",
       desc: "Sesiones personalizadas de terapia psicológica diseñadas para mejorar la concentración, la autoconfianza y el manejo del estrés en el deporte.",
       descBullets: [
@@ -214,7 +214,20 @@ const workExperiences = {
         "Prevención y manejo del agotamiento psicológico en el deporte",
         "Fomento de una mentalidad ganadora y resiliente"
       ]
+    },
+    {
+      role: "Otras opciones profesionales en psicología del deporte",
+      company: "Ámbitos de desempeño",
+      companylogo: require("./assets/images/saludmental.jpg"),
+      date: "",
+      desc: "Además del trabajo directo con atletas, los profesionales en psicología del deporte pueden desempeñarse en distintos contextos educativos y deportivos.",
+      descBullets: [
+        "Asesores en entidades deportivas: colaboran con entrenadores para potenciar el rendimiento y bienestar de los deportistas",
+        "Docentes y educadores en actividad física: promueven los beneficios de la actividad física e incentivan su práctica",
+        "Coach deportivo y/o entrenador personal: ayudan a superar bloqueos mentales para alcanzar el máximo potencial"
+      ]
     }
+
   ]
 };
 

@@ -1,7 +1,7 @@
 .bonos-container {
   text-align: center;
   padding: 40px 20px;
-  background: linear-gradient(135deg, #6a11cb, #2575fc); // Degradado morado-azul
+  background: linear-gradient(135deg, #007bff, #00b4ff); // Degradado azul suave
   color: #fff;
 
   .bonos-title {
@@ -58,7 +58,7 @@
       .bono-button {
         display: inline-block;
         padding: 10px 15px;
-        background: #6a11cb;
+        background: #007bff; // Azul principal
         color: #fff;
         text-decoration: none;
         border-radius: 8px;
@@ -66,7 +66,7 @@
         transition: background 0.3s ease-in-out;
 
         &:hover {
-          background: #4a0d9c;
+          background: #00b4ff; // Azul más claro al hacer hover
         }
       }
     }
