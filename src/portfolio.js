@@ -216,17 +216,18 @@ const workExperiences = {
       ]
     },
     {
-      role: "Otras opciones profesionales en psicología del deporte",
+      role: "Otras asesorías",
       company: "Ámbitos de desempeño",
       companylogo: require("./assets/images/saludmental.jpg"),
       date: "",
-      desc: "Además del trabajo directo con atletas, los profesionales en psicología del deporte pueden desempeñarse en distintos contextos educativos y deportivos.",
+      desc: "Además de trabajar con deportistas de alto rendimiento, también se brinda apoyo a entrenadores y técnicos para potenciar el rendimiento y bienestar del equipo o de forma individual.",
       descBullets: [
-        "Asesores en entidades deportivas: colaboran con entrenadores para potenciar el rendimiento y bienestar de los deportistas",
-        "Docentes y educadores en actividad física: promueven los beneficios de la actividad física e incentivan su práctica",
-        "Coach deportivo y/o entrenador personal: ayudan a superar bloqueos mentales para alcanzar el máximo potencial"
+        "Asesorías a entrenadores y técnicos para optimizar el rendimiento de sus equipos",
+        "Coach deportivo: superación de bloqueos mentales para alcanzar el máximo potencial del deportista",
+        "Apoyo psicológico integral enfocado en el desarrollo mental y emocional en contextos deportivos"
       ]
     }
+
 
   ]
 };

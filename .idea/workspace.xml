@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9cf22fe-5a0e-4cba-a8ee-e3ec29a03750" name="Changes" comment="Ajustes">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/psico.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bono.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/bono.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experienceCard/ExperienceCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experienceCard/ExperienceCard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/socialMedia/SocialMedia.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/socialMedia/SocialMedia.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/StartupProjects/StartupProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/StartupProjects/StartupProject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/StartupProjects/StartupProjects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/StartupProjects/StartupProjects.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/aboutMe/AboutMe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/aboutMe/AboutMe.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/aboutMe/aboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/aboutMe/aboutMe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/achievement/Achievement.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/achievement/Achievement.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/splashScreen/SplashScreen.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/splashScreen/SplashScreen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/splashScreen/SplashScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/splashScreen/SplashScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/talks/Talks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/talks/Talks.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +91,7 @@
       <workItem from="1743006251238" duration="1907000" />
       <workItem from="1743622531214" duration="3381000" />
       <workItem from="1744808698014" duration="663000" />
-      <workItem from="1745527346862" duration="2532000" />
+      <workItem from="1745527346862" duration="3563000" />
     </task>
     <task id="LOCAL-00001" summary="Cruz">
       <option name="closed" value="true" />
@@ -141,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743625861991</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ajustes">
+      <option name="closed" value="true" />
+      <created>1745530020927</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745530020927</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
