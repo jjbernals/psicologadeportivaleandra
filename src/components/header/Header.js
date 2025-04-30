@@ -30,7 +30,8 @@ function Header() {
         </div>
           <header className={`header ${isDark ? "dark-menu" : ""} ${menuOpen ? "open" : ""}`}>
             <a href="/" className="logo">
-              <span className="logo-name">{greeting.username}</span> <br />
+              <span className="logo-name">{greeting.username}</span>
+              <span className="logo-name2">Abogada</span>
               <span className="logo-name2">Psicologa clinica deportiva</span>
             </a>
 
@@ -41,6 +42,7 @@ function Header() {
               <li><a href="/#contact" onClick={() => setMenuOpen(false)}>Contacto</a></li>
               {viewAchievement && <li><a href="/faqs" onClick={() => setMenuOpen(false)}>FAQs</a></li>}
               <li><a href="/telecitas" onClick={() => setMenuOpen(false)}>Sesión en Línea</a></li>
+              <li><a href="/asesorias" onClick={() => setMenuOpen(false)}>Asesorias</a></li>
             </ul>
           </header>
       </>

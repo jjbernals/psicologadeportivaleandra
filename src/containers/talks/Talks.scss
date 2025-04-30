@@ -9,7 +9,7 @@
 
 .teleconsultas-header {
   text-align: center;
-  background: linear-gradient(135deg, #6a00ff, #a200ff);
+  background: linear-gradient(135deg, rgba(0, 123, 255, 0.9), rgba(0, 180, 255, 0.9));
   color: white;
   padding: 40px;
   border-radius: 10px;
@@ -24,7 +24,7 @@
 }
 
 h2 {
-  color: #6a00ff;
+  color: #007bff; // azul base
   margin-bottom: 15px;
 }
 
@@ -51,7 +51,7 @@ ul {
   flex: 1;
   text-align: center;
   padding: 20px;
-  background: rgba(106, 0, 255, 0.1);
+  background: rgba(0, 123, 255, 0.1); // azul claro
   border-radius: 8px;
   min-width: 200px;
 
@@ -62,20 +62,20 @@ ul {
   h3 {
     margin-top: 10px;
     font-size: 18px;
-    color: #6a00ff;
+    color: #007bff; // azul base
   }
 }
 
 /* FAQ Section */
 .faq {
-  background: rgba(106, 0, 255, 0.1);
+  background: rgba(0, 123, 255, 0.1); // azul claro
   padding: 15px;
   border-radius: 8px;
   margin-bottom: 10px;
 
   h3 {
     font-size: 16px;
-    color: #6a00ff;
+    color: #007bff; // azul base
   }
 }
 

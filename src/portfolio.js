@@ -182,7 +182,7 @@ const workExperiences = {
     {
       role: "Talleres de grupo sobre manejo de la presión",
       company: "Trabajo grupal y equipos",
-      companylogo: require("./assets/images/group.jpg"),
+      companylogo: require("./assets/images/draygrupo.jpeg"),
       date: "",
       desc: "Entrenamiento mental y talleres diseñados para fortalecer la cohesión del equipo y mejorar el rendimiento colectivo.",
       descBullets: [
@@ -206,7 +206,7 @@ const workExperiences = {
     {
       role: "Asesoría para el desarrollo de estrategias mentales personalizadas",
       company: "Formación y Asesoría Deportiva",
-      companylogo: require("./assets/images/saludmental.jpg"),
+      companylogo: require("./assets/images/cerebro.jpeg"),
       date: "",
       desc: "Brindamos asesoramiento especializado para desarrollar estrategias mentales personalizadas que optimicen el rendimiento psicológico de los deportistas.",
       descBullets: [

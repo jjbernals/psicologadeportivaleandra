@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9cf22fe-5a0e-4cba-a8ee-e3ec29a03750" name="Changes" comment="Ajustes">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/cerebro.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/draygrupo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/leandramarcadeagua.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/asesorias/asesorias.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/asesorias/asesorias.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/talks/Talks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/talks/Talks.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +56,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/laragon/www/psicologadeportivaleandra/public",
+    "last_opened_file_path": "C:/laragon/www/draleandrapadro/src/assets/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,11 +69,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\laragon\www\psicologadeportivaleandra\public" />
-      <recent name="C:\laragon\www\draleandrapadro\public" />
       <recent name="C:\laragon\www\draleandrapadro\src\assets\images" />
+      <recent name="C:\laragon\www\draleandrapadro\public" />
+      <recent name="C:\laragon\www\psicologadeportivaleandra\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\draleandrapadro\src\assets\images" />
       <recent name="C:\laragon\www\psicologadeportivaleandra\src\assets\images" />
       <recent name="C:\laragon\www\draleandrapadro\public" />
     </key>
