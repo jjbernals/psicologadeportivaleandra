@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9cf22fe-5a0e-4cba-a8ee-e3ec29a03750" name="Changes" comment="Ajustes">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/cerebro.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/draygrupo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/leandramarcadeagua.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/asesorias/asesorias.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/asesorias/asesorias.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/equipo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/otrasAsesorias.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/terapia.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/talks/Talks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/talks/Talks.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/groupF.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/psico.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/saludmental.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/portfolio.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +43,6 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2uK8wlBjvFVbYUMZfIcbOpXgg9x" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,24 +52,26 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/laragon/www/draleandrapadro/src/assets/images",
+    "last_opened_file_path": "C:/laragon/www/psicologadeportivaleandra/src/assets/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\laragon\\www\\draleandrapadro\\node_modules\\prettier",
+    "prettierjs.PrettierConfiguration.Package": "C:\\laragon\\www\\psicologadeportivaleandra\\node_modules\\prettier",
     "settings.editor.selected.configurable": "editing.templates",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\psicologadeportivaleandra\src\assets\images" />
       <recent name="C:\laragon\www\draleandrapadro\src\assets\images" />
       <recent name="C:\laragon\www\draleandrapadro\public" />
       <recent name="C:\laragon\www\psicologadeportivaleandra\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\psicologadeportivaleandra\build" />
       <recent name="C:\laragon\www\draleandrapadro\src\assets\images" />
       <recent name="C:\laragon\www\psicologadeportivaleandra\src\assets\images" />
       <recent name="C:\laragon\www\draleandrapadro\public" />
@@ -82,8 +80,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PS-243.26053.13" />
-        <option value="bundled-php-predefined-a98d8de5180a-1ec7b7818973-com.jetbrains.php.sharedIndexes-PS-243.26053.13" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-PS-251.23774.466" />
+        <option value="bundled-php-predefined-a98d8de5180a-aaeaa8632555-com.jetbrains.php.sharedIndexes-PS-251.23774.466" />
       </set>
     </attachedChunks>
   </component>
@@ -102,7 +100,10 @@
       <workItem from="1743006251238" duration="1907000" />
       <workItem from="1743622531214" duration="3381000" />
       <workItem from="1744808698014" duration="663000" />
-      <workItem from="1745527346862" duration="3563000" />
+      <workItem from="1745527346862" duration="4319000" />
+      <workItem from="1746458987534" duration="1872000" />
+      <workItem from="1747411600193" duration="1159000" />
+      <workItem from="1747658606772" duration="2571000" />
     </task>
     <task id="LOCAL-00001" summary="Cruz">
       <option name="closed" value="true" />
@@ -144,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745530020927</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ajustes">
+      <option name="closed" value="true" />
+      <created>1745531500420</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1745531500420</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

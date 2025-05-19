@@ -170,7 +170,7 @@ const workExperiences = {
     {
       role: "Sesiones individuales de terapia psicológica",
       company: "Atención individual",
-      companylogo: require("./assets/images/psico.jpg"),
+      companylogo: require("./assets/images/terapia.jpg"),
       date: "",
       desc: "Sesiones personalizadas de terapia psicológica diseñadas para mejorar la concentración, la autoconfianza y el manejo del estrés en el deporte.",
       descBullets: [
@@ -194,7 +194,7 @@ const workExperiences = {
     {
       role: "Entrenamiento mental para equipos",
       company: "Formación y asesoría",
-      companylogo: require("./assets/images/groupF.webp"),
+      companylogo: require("./assets/images/equipo.jpeg"),
       date: "",
       desc: "Asesoría para la creación de estrategias mentales personalizadas que ayuden a potenciar el desarrollo psicológico del deportista.",
       descBullets: [
@@ -218,7 +218,7 @@ const workExperiences = {
     {
       role: "Otras asesorías",
       company: "Ámbitos de desempeño",
-      companylogo: require("./assets/images/saludmental.jpg"),
+      companylogo: require("./assets/images/otrasAsesorias.jpeg"),
       date: "",
       desc: "Además de trabajar con deportistas de alto rendimiento, también se brinda apoyo a entrenadores y técnicos para potenciar el rendimiento y bienestar del equipo o de forma individual.",
       descBullets: [
@@ -405,8 +405,8 @@ const contactInfo = {
   number: "320 5794183",
   email_address: "", // Lo puedes dejar vacío o eliminar si ya no se usa
   address: [
-    "Calle 63 # 14-40 local 11, Bosques de Santa Mónica, Pereira, Risaralda",
-    "Carrera 7 #57-45, Piedrapintada, Ibagué, Tolima"
+    "Pereira, Risaralda",
+    "Ibagué, Tolima"
   ]
 };
 
